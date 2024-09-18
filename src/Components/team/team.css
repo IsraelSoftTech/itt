@@ -1,0 +1,50 @@
+.container.teams__container{
+    width: 30%;
+   
+    padding-bottom: 2.5rem;
+    padding-right:2.5rem;
+    padding-left:2.5rem;
+   
+}
+.team__avatar{
+    width: 15rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border-radius: 20%;
+    border: 0.2rem solid var(--color-light);
+}
+.team{
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.team__review{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+}
+
+/*-Media Querries (medium DEVICES) --*/
+@media screen and (max-width: 1024px){
+  .container.teams__container{
+    width: 60%;
+  }
+  }
+  /*-Media Querries (SMALL DEVICES) --*/
+  @media screen and (max-width:600px){
+     .container.teams__container{
+        width: var(--container-width-sm);
+     }
+     .team__review{
+        width: var(--container-width-sm);
+     }
+     .team__avatar{
+        width:80%;
+     }
+   
+  }

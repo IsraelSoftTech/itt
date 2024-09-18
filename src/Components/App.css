@@ -1,0 +1,340 @@
+body {
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.cart {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px rgba(0,0,0.2);
+  overflow: hidden;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+
+}
+
+.product-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.description {
+  background-color: #724ae8;
+  padding: 15px;
+  color: white;
+  border: 1px solid var(--main-color);
+}
+
+.price {
+  color: var(--main-color);
+  font-size: 1.5em;
+}
+
+.btn1 {
+  background-color: var(--text-color);
+  border: none;
+  color: var(--bg-color);
+  width: 100px;
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn1:hover {
+  background-color:var(--main-color);
+  color:black;
+}
+:root{
+  --bg-color: #080808;
+  --second-bg-color: #131313;
+  --text-color: white;
+  --main-color: #00ffee;
+}
+.cart img{
+  cursor: pointer;
+}
+
+
+/*cart1*/
+
+.cart1 {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px rgba(0,0,0.2);
+  overflow: hidden;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+
+}
+
+.product1-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.description1 {
+  background-color: #724ae8;
+  padding: 15px;
+  color: white;
+  border: 1px solid var(--main-color);
+}
+
+.price1 {
+  color: var(--main-color);
+  font-size: 1.5em;
+}
+
+button {
+  background-color: var(--second-bg-color);
+  border: none;
+  color: var(--bg-color);
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--second-bg-color);
+  color:var(--main-color);
+}
+:root{
+  --bg-color: #080808;
+  --second-bg-color: #131313;
+  --text-color: white;
+  --main-color: #00ffee;
+}
+.cart1 img{
+  cursor: pointer;
+}
+
+/*testimonials*/
+.cart2 {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px rgba(0,0,0.2);
+  overflow: hidden;
+  margin-left: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.testimonial-img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimony {
+  background-color: #724ae8;
+  padding: 15px;
+  color: white;
+  border: 1px solid var(--main-color);
+}
+
+.location {
+  color: var(--main-color);
+  font-size: 1em;
+}
+.cart2 h5{
+  font-weight: 50;
+}
+
+
+:root{
+  --bg-color: #080808;
+  --second-bg-color: #131313;
+  --text-color: white;
+  --main-color: #00ffee;
+}
+
+/*team*/
+.cart3 {
+  background: blueviolet;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px rgba(0,0,0.2);
+  overflow: hidden;
+  margin-left: 10px;
+  text-align: center;
+  width: 250px;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.team-img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.team {
+  background-color: #724ae8;
+  padding: 15px;
+  color: white;
+  border: 1px solid var(--text-color);
+}
+
+.post {
+  color: var(--main-color);
+  font-size: 1em;
+}
+.cart3 h5{
+  font-weight: 50;
+}
+
+
+:root{
+  --bg-color: #080808;
+  --second-bg-color: #131313;
+  --text-color: white;
+  --main-color: #00ffee;
+}
+
+/*portfolio */
+
+.portfolio {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px rgba(0,0,0.2);
+  overflow: hidden;
+ margin-left: 30px;
+  text-align: center;
+  width: 330px;
+  height: auto;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+.port {
+  background-color: #724ae8;
+  padding: 15px;
+  color: white;
+  border: 1px solid var(--main-color);
+}
+.portfolio h3{
+  color:white;
+  font-weight: 300;
+  
+}
+.project{
+  color: var(--main-color);
+  font-size: 1em;
+}
+.portfolio h5{
+font-weight: 15;
+
+  font-size: 14px;
+}
+.portfolio p{
+  font-size: 14px;
+
+
+}
+.portfolio-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+
+}
+
+
+:root{
+  --bg-color: #080808;
+  --second-bg-color: #131313;
+  --text-color: white;
+  --main-color: #00ffee;
+}
+
+
+
+/*Courses Text*/
+.courses-text {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  color: black;
+
+  gap: 0.5cm;
+}
+.reg-right{
+  display: grid;
+  width: 100%;
+  border-left: 3px solid #724ae8;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+.reg-right img{
+  width: 300px;
+  height: 300px;
+
+}
+.reg-left{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-right: 3px solid #724ae8;
+  border-radius: 10px;
+}
+.reg-left h1{
+  color:#724ae8;
+
+}
+
+/*Register flyers*/
+.register-flyer{
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+ color:#724ae8
+}
+.flyer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 2cm;
+
+
+}
+.flyer img{
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid #2a08f0;
+ 
+
+}
+

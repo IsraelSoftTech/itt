@@ -1,0 +1,25 @@
+nav {
+    top:0;
+  padding: 0.7rem 1.7rem;
+  justify-content: center;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  gap: 0.8rem;
+
+  background: var(--color-bg);
+}
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+
+  display: flex;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+}
+
+nav a.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
