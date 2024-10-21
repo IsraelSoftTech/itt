@@ -1,25 +1,58 @@
 nav {
-    top:0;
+  top: 0;
   padding: 0.7rem 1.7rem;
-  justify-content: center;
+  justify-content: space-between; 
   z-index: 2;
   position: fixed;
   width: 100%;
   display: flex;
-  gap: 0.8rem;
-
   background: var(--color-bg);
 }
-nav a {
-  background: transparent;
-  padding: 0.9rem;
 
-  display: flex;
+.menu-icon {
+  cursor: pointer;
+  display: none; /* Hide the menu icon by default */
+}
+
+.nav-links {
+  display: flex; /* Default display for larger screens */
+  gap: 0.8rem;
+}
+
+.nav-links a {
+  text-decoration: none;
   color: var(--color-primary);
+  padding: 0.9rem;
   font-size: 1.1rem;
 }
 
-nav a.active {
-  background: var(--color-primary);
-  color: var(--color-bg);
+.nav-links.open {
+  display: flex; /* Show links when menu is open */
+  flex-direction: column; /* Stack links vertically */
+}
+
+@media (max-width: 768px) {
+  .menu-icon {
+      display: block; /* Show the menu icon on mobile */
+  }
+
+  .nav-links {
+      display: none; /* Hide links by default on mobile */
+      position: absolute; /* Position menu items absolutely */
+      top: 60px; /* Position below the nav */
+      left: 0;
+      right: 0;
+      background: var(--color-bg); /* Background color for the menu */
+      z-index: 1;
+      padding: 1rem; /* Padding for the dropdown */
+  }
+
+  .nav-links.open {
+      display: flex; /* Show links when menu is open */
+  }
+
+  .nav-links a {
+      font-size: 1rem; /* Adjust font size for mobile */
+      padding: 0.7rem 0; /* Padding for mobile links */
+  }
 }
