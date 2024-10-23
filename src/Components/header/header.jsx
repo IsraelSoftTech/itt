@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import CTA from "./CTA";
 import HeaderSocials from "./headerSocials";
-import US from "../../assets/US.jpg";
+import US from "../../assets/US.png";
 import log from "../../assets/new1log.png";
 
 // motion
@@ -25,7 +25,7 @@ const header = () => {
       <div className="container header__container">
         <h1>Izzy Tech Team | </h1> <h5>Bringing the change</h5>
         <h5>We're:</h5>
-        <h5 className="text-light">IT Engineers</h5>
+        <h5 className="text-light">System Developers</h5>
         <CTA />
         <HeaderSocials />
         <motion.div

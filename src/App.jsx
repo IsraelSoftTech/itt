@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 
 import Header from "./Components/header/header";
 import Nav from "./Components/nav/Nav";
@@ -128,7 +128,7 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       
       <RouterProvider router={router} />
       

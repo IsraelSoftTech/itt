@@ -15,16 +15,10 @@ const portfolio = () => {
       <h5>Our Training Programs</h5>
       <h2>Izzy Tech Academy</h2>
       <div className="portfolio__item-cta">
-        <a href="https://github.com" className="btn" target="_blank">
+        <a href="https://docs.google.com/document/d/12Uy3phfiMbnELO2RRdO5zugoNqdzyM1kfit-oUJDzis/edit?usp=drivesdk" className="btn" target="_blank">
           Know More
         </a>
-        <a
-          href="https://github.com"
-          className="btn btn-primary"
-          target="_blank"
-        >
-          Register
-        </a>
+        <a href="/contact" className='btn'>Register</a>
       </div>
       <div className="portfolio__container">
         <article className="portfolio__item">

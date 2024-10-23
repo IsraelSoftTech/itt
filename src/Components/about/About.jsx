@@ -62,7 +62,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            <h5>Our Vision(still to add...)</h5>
+            <h5>Our Vision</h5>
             Izzy Tech is a software engineering company consisting a team of
             software engineeers who work together in order to offer excellent
             and fast tech services to clients. Izzy Tech Team offers a number of

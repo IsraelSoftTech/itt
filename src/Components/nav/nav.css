@@ -1,7 +1,7 @@
 nav {
   top: 0;
   padding: 0.7rem 1.7rem;
-  justify-content: space-between; 
+  justify-content:space-between; 
   z-index: 2;
   position: fixed;
   width: 100%;
@@ -26,14 +26,15 @@ nav {
   font-size: 1.1rem;
 }
 
-.nav-links.open {
-  display: flex; /* Show links when menu is open */
-  flex-direction: column; /* Stack links vertically */
-}
+
 
 @media (max-width: 768px) {
   .menu-icon {
       display: block; /* Show the menu icon on mobile */
+  }
+  .nav-links.open {
+    display: flex; /* Show links when menu is open */
+    flex-direction: column; /* Stack links vertically */
   }
 
   .nav-links {

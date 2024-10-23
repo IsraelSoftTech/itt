@@ -11,8 +11,13 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 import { BsYoutube } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const footer = () => {
+  const toggleMenu = () => {
+    
+  }
+
   return (
   <motion.footer
   variants={fadeIn("up",0.3)}
@@ -23,14 +28,14 @@ const footer = () => {
   >
     <a href = "#" className='footer__logo'>IZZY TECH TEAM</a>
     <ul className='permaLinks'>
-<li><a href="#">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#experience">Experience</a></li>
-<li><a href="#services">Services</a></li>
-<li><a href="#portfolio">Training</a></li>
-<li><a href="#testimonials">Testimonials</a></li>
-<li><a href="#team">Teams</a></li>
-<li><a href="#contact">Let's talk</a></li>
+    <Link to="/" onClick={toggleMenu}>Home</Link>
+        <Link to="/about" onClick={toggleMenu}>About</Link>
+        <Link to="/services" onClick={toggleMenu}>Services</Link>
+        <Link to="/team" onClick={toggleMenu}>Team</Link>
+        <Link to="/experience" onClick={toggleMenu}>Experience</Link>
+        <Link to="/portfolio" onClick={toggleMenu}>Portfolio</Link>
+        <Link to="/testimonials" onClick={toggleMenu}>Testimonials</Link>
+        <Link to="/contact" onClick={toggleMenu}>Contact</Link>
 <li><a href="https://about.fb.com/news/category/technology-and-innovation/" target='_blank'>Worldwide Tech News/Updates</a></li>
     </ul>
 
