@@ -5,7 +5,9 @@ import Team1 from '../../assets/team 1.png'
 import Team2 from '../../assets/team 2.png'
 import Team3 from '../../assets/team 3.png'
 import Team4 from '../../assets/team 4.png'
+
 import Test1 from '../../assets/Test 1.png'
+
 
 // import swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
@@ -63,6 +65,7 @@ const team = () => {
           
         </SwiperSlide>
 
+
         <SwiperSlide className="team">
           <div className="team__avatar">
             <img src={Team3} alt="" />
@@ -91,6 +94,7 @@ const team = () => {
           
         </SwiperSlide>
        
+
         </Swiper>
 
     </section>
