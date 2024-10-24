@@ -9,6 +9,7 @@ import log from "../../assets/new1log.png";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
+import ImageSwiper from "../ImageSwiper/ImageSwiper";
 
 const header = () => {
   return (
@@ -28,15 +29,7 @@ const header = () => {
         <h5 className="text-light">System Developers</h5>
         <CTA />
         <HeaderSocials />
-        <motion.div
-          variants={fadeIn("down", 0.3)}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.7 }}
-          className="us"
-        >
-          <img src={US} alt="" />
-        </motion.div>
+      <ImageSwiper/>
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>

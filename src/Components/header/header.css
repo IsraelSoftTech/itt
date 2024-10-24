@@ -1,5 +1,5 @@
 header {
-  height: 120vh;
+  height: 180vh;
   padding-top: 7rem;
   overflow: hidden;
 }
@@ -96,6 +96,11 @@ h5 {
   }
   .header__socials,
   .scroll__down {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .us{
     display: none;
   }
 }
